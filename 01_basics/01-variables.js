@@ -11,3 +11,5 @@ accountState = "Mumbai";
 
 console.log(accountState);
 console.table([accountId,accountPass,accountState,accountCity]);
+
+/* prefer to not use var due to block scope and functional scope issue */
